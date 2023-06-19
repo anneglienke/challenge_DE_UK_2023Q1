@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  tech_task:
+    build: .
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./input/:/app/input/
+      - ./output/:/app/output/

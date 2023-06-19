@@ -1,0 +1,3 @@
+{"order_id": 1, "customer_id": 5,"customer_city": "London", "customer_country": "UK", "order_items": [{"product_id": 1,"product_name": "Toaster","quantity": 2,"price_gbp": 29.99}]}
+{"order_id": 2, "customer_id": 6,"customer_city": "Manchester", "customer_country": "UK", "order_items": [{"product_id": 1,"product_name": "Toaster","quantity": 1,"price_gbp": 29.99}]}
+{"order_id": 3, "customer_id": 10,"customer_city": "San Francisco", "customer_country": "USA", "order_items": [{"product_id": 3,"product_name": "Speaker","quantity": 1,"price_gbp": 49.99}, {"product_id": 2,"product_name": "TV","quantity": 1,"price_gbp": 549.99}]}
