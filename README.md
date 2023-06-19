@@ -1,6 +1,6 @@
 ## 1. The Task
 
-The task is to write a Python program to read in an input file [orders.jsonl](input/orders.jsonl) and output three CSV files:
+The task is to write a Python program to read an input file [orders.jsonl](input/orders.jsonl) and output three CSV files:
 
 - File 1: `customers.csv`
 
@@ -47,17 +47,19 @@ Once executed, the `main.py` script will create the following three files in the
 
 ### Running locally
 To run locally, you will need Python 3.11 or newer installed in your local environment. 
+<br /> 
 <br />
 Then, install the dependencies: 
+
 ```
 pip install -r requirements.txt
 ```
-<br />
 And run the script:
+
 ```
 python3 ./main.py
 ```
-Make sure to have these two folders available in the same directory of the `main.py` file: `input` (containing orders.jsonl) and `output`.
+Make sure to have these two folders available in the same directory of the `main.py` file: `input` (containing orders.jsonl) and `output` (initially empty).
 
 ### Running with Docker
 To run using Docker, [install Docker](https://docs.docker.com/get-docker/) and run the following command from the project's root directory:
